@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;400;700&display=swap");
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #121214;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: #181818;
+}
+
+.header a, h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #6C63FF;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.git-hub {
+  background: none;
+  border: 1px solid #6C63FF;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.git-hub i {
+  font-size: 20px;
+  color: #6C63FF;
+}
+.git-hub span {
+  font-size: 15px;
+  color: #6C63FF;
+}
+.git-hub:hover {
+  background: #6C63FF;
+  transition: 0.2s linear;
+}
+.git-hub:hover i,
+.git-hub:hover span {
+  color: #121214;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  margin: 200px;
+  justify-content: space-between;
+}
+main .primary-group header p {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 20px;
+}
+main .primary-group .description {
+  color: #fff;
+  margin-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+}
+main .primary-group .description span {
+  color: #6C63FF;
+  font-weight: 500;
+}
+main .primary-group .description p {
+  color: #999;
+  margin-top: 20px;
+}
+main .secondary-group img {
+  width: 500px;
+}
+
+.connect-now {
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  background: #6C63FF;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.connect-now i {
+  font-size: 20px;
+}
+.connect-now:hover {
+  transition: filter 0.5s;
+  filter: brightness(0.6);
+}
+
+.no-post {
+  text-align: center;
+}
+.no-post img {
+  width: 300px;
+}
+.no-post h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #6C63FF;
+  margin-top: 50px;
+}
+
+.post {
+  background: #323238;
+  width: 800px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 40px;
+  transform: translateY(-150px);
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.post time {
+  color: #999;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+.post a {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.post .description {
+  font-size: 15px;
+  color: #999;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}/*# sourceMappingURL=ready.css.map */
